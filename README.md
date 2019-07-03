@@ -6,7 +6,7 @@
 
 主要代码
 ===
-`
+```
 function getObjectURL(file) {
     var url = "";
     if (window.createObjectURL != undefined) {
@@ -25,7 +25,7 @@ my$('header').onchange = function () {
     var newFile = file.files[0]
     my$('head_img').src = getObjectURL(newFile)
 }
-`
+```
 
 说明
 ===

@@ -1,12 +1,7 @@
-# change-avatar
-#### 轻量级原生头像预览功能
-示例
-===
-![image](https://github.com/SeriouslyI/change-avatar/blob/master/imgs/1.png)
+function my$(id) {
+    return document.getElementById(id)
+}
 
-主要代码
-===
-`
 function getObjectURL(file) {
     var url = "";
     if (window.createObjectURL != undefined) {
@@ -25,9 +20,3 @@ my$('header').onchange = function () {
     var newFile = file.files[0]
     my$('head_img').src = getObjectURL(newFile)
 }
-`
-
-说明
-===
-#### 1.代码很少功能简单
-#### 2.通过createObjectURL实现图片地址获取

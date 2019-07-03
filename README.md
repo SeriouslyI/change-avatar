@@ -2,7 +2,7 @@
 #### 轻量级原生头像预览功能
 示例
 ===
-![image](https://github.com/SeriouslyI/change-avatar/blob/master/imgs/1.png)
+![image](https://github.com/SeriouslyI/change-avatar/blob/master/imgs/1.PNG)
 
 主要代码
 ===
